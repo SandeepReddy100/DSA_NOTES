@@ -11,7 +11,7 @@ import java.util.function.Predicate;
  * ============================================================
  * COMPLETE GUIDE: ARRAY DATA STRUCTURES (JAVA)
  * ============================================================
- * BASED ON: arrjava.pdf, arrlist.pdf
+ 
  * * --- THEORY & CONCEPTS ---
  * 
  * * 1. DEFINITION
@@ -121,7 +121,7 @@ public class ArrayJava {
         ArrayList<Integer> listFromArray = new ArrayList<>(
             Arrays.asList(1, 2, 3, 4, 5)
         );      
-        System.out.println("List from Array: " + listFromArray);
+ ;       System.out.println("List from Array: " + listFromArray);
         // List to Array        
         Integer[] arrayFromList = listFromArray.toArray(new Integer[0]);
         System.out.println("Array from List: " + Arrays.toString(arrayFromList));   
