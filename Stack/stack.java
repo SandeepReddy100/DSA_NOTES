@@ -42,6 +42,16 @@ Explanation of process of reversing a stack without using another stack:
     reversed.  
 
 
+
+    Explanation about Monotonic Stack:A Monotonic Stack is a specialized stack data structure that 
+    maintains its elements in a specific order, either entirely non-increasing or non-decreasing. 
+    This property allows for efficient retrieval of certain information about the elements in the 
+    stack, such as finding the next greater or smaller element in a sequence.
+
+    Example of Monotonic Stack Usage:
+    - Consider the problem of finding the next greater element for each element in an array.
+    - Stack contain 1,2,3,5 now i need to add 4 then i will pop 5 and add 4 then add 5 again.
+
 */
 
 
